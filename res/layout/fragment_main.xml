@@ -9,8 +9,27 @@
     tools:context="com.example.andsdf.MainActivity$PlaceholderFragment" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hello_world" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="77dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="CheckBox" />
+
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/checkBox1"
+        android:layout_below="@+id/checkBox1"
+        android:layout_marginTop="146dp"
+        android:text="CheckedTextView" />
 
 </RelativeLayout>
